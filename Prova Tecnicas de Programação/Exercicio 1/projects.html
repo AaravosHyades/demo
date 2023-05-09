@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Prova Exercicio 1</title>
+    </head>
+    <header class="header">
+        <div class="darkbutton">
+            <button class="buttondark" onclick="darkMode()">Darkmode</button>
+          </div>
+          <div class="menu">
+              <a href="index.html">Sobre Mim</a>
+              <a href="projects.html">Projetos</a>
+              <a href="contacts.html">Contato</a>
+            </div>
+          </header>
+  <body>
+      <div class="bluepen">
+          <img src="foto.png.jpg" alt="foto" class="imgbluepen">
+      </div>      
+    <h1>Meus Projetos</h1>
+    <h2>Blackout</h2>
+    <p>
+      Fui responsavel pelo character design, roteiro e design dos graficos da demo Blackout que foi criada
+      como TCC da turma de Jogos digitais.
+    </p>
+    <img src="Screenshot Blackout.png" alt="Blackout" class="blackout">
+    <a href="https://gamejolt.com/games/blackoutdemo/434787">Link da Gamejolt</a>
+    <h3>Github</h3>
+    <a href="https://github.com/AaravosHyades/demo.git"><img src="github-mark.png" alt="Git" style="width:10%;" class="git"></a>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>
